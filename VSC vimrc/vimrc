@@ -8,10 +8,10 @@ set tabstop=2
 set shiftwidth=2
 set tabstop=4 softtabstop=0 expandtab shiftwidth=2 smarttab
 
-":syntax on
+:syntax on
 
-"set nocompatible
-"set backspace=indent,eol,start
+set nocompatible
+set backspace=indent,eol,start
 
 "remap redo
 nnoremap r <C-R>
@@ -33,7 +33,7 @@ nnoremap r <C-R>
 "nnoremap m i
 
 "automatic indent
-"set autoindent
+set autoindent
 "stop vim from removing indent from blank lines
 inoremap <CR> <CR>x<BS>
 nnoremap o ox<BS>
@@ -75,6 +75,12 @@ cnoremap fd <ESC>
 cnoremap FD <ESC>
 "cmap fd <ESC>
 "cmap FD <ESC>
+
+"cnoremap <C-j> <Down>
+"cnoremap <C-k> <Up>
+
+"inoremap <C-j> <Down>
+"inoremap <C-k> <Up>
 
 "inoremap ;; <ESC>ciw""<ESC>P
 nnoremap ;; ciw""<ESC>P
